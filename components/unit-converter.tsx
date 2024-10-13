@@ -135,7 +135,7 @@ export default function UnitConverter() {
         </p>
         <div className="grid grid-cols-1 bg-blue-200 p-5">
           {/* Select for input unit */}
-          <div className="space-y-1">
+          <div className="space-y-1 w-45">
             <Label htmlFor="input-unit" className="font-bold text-base">From:</Label>
             <Select onValueChange={handleInputUnitChange}>
               <SelectTrigger>
