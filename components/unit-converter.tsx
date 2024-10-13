@@ -189,13 +189,13 @@ export default function UnitConverter() {
               placeholder="Enter value"
               value={inputValue || ""}
               onChange={handleInputChange}
-              className="w-36 text-center ml-24 font-bold text-base"
+              className="text-center  font-bold text-base"
             />
           </div>
           {/* Button to trigger conversion */}
           <Button
             type="button"
-            className="bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+            className="ml-20 bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
             onClick={convertValue}
           >
             Convert
