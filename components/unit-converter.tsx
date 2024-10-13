@@ -195,7 +195,7 @@ export default function UnitConverter() {
           {/* Button to trigger conversion */}
           <Button
             type="button"
-            className="bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400"
+            className="bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400 ml-18"
             onClick={convertValue}
           >
             Convert
