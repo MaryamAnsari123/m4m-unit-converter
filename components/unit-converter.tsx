@@ -133,9 +133,9 @@ export default function UnitConverter() {
         <p className="text-sm mb-8 text-center bg-black text-white">
           Convert values between different units.
         </p>
-        <div className="grid grid-cols-1 bg-blue-200 p-5">
+        <div className="grid grid-cols-1 bg-blue-200 gap-2 p-5">
           {/* Select for input unit */}
-          <div className="space-y-1 w-45">
+          <div className="space-y-1 w-20">
             <Label htmlFor="input-unit" className="font-bold text-base">From:</Label>
             <Select onValueChange={handleInputUnitChange}>
               <SelectTrigger>
