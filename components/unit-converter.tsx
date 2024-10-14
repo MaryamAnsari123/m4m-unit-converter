@@ -133,7 +133,7 @@ export default function UnitConverter() {
         <p className="text-sm mb-8 text-center bg-black text-white">
           Convert values between different units.
         </p>
-        <div className="grid grid-cols bg-blue-200 gap-2 p-5">
+        <div className="grid grid-cols flex justify-center bg-blue-200 gap-2 p-5">
           {/* Select for input unit */}
           <div className="space-y-1 w-32">
             <Label htmlFor="input-unit" className="font-bold text-base">From:</Label>
@@ -193,7 +193,7 @@ export default function UnitConverter() {
             />
           </div>
           {/* Button to trigger conversion */}
-<div className="flex justify-center mt-4">
+
           <Button
             type="button"
             className="bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400 px-6 py-2 rounded"
@@ -201,7 +201,6 @@ export default function UnitConverter() {
           >
             Convert
           </Button>
-</div>
         </div>
         {/* Display the converted value */}
         <div className="mt-6 text-center bg-blue-300 p-6 shadow-2xl">
