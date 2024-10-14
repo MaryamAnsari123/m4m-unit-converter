@@ -196,7 +196,7 @@ export default function UnitConverter() {
 <div className="flex justify-center">
           <Button
             type="button"
-            className="bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400 ml-18"
+            className="bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400 px-6 py-2 rounded"
             onClick={convertValue}
           >
             Convert
