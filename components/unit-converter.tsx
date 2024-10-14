@@ -193,7 +193,7 @@ export default function UnitConverter() {
             />
           </div>
           {/* Button to trigger conversion */}
-<div className="flex justify-center">
+<div className="flex justify-center mt-4">
           <Button
             type="button"
             className="bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400 px-6 py-2 rounded"
