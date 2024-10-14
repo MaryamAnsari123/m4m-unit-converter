@@ -193,7 +193,7 @@ export default function UnitConverter() {
             />
           </div>
           {/* Button to trigger conversion */}
-<div className="alignItems-center">
+<div className="flex justify-center">
           <Button
             type="button"
             className="bg-blue-500 text-primary-foreground font-bold text-black hover:bg-rose-400 ml-18"
